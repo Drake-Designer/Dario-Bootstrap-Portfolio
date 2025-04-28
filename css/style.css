@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+/* Dario code start 
+
+Requirements:
+
+1. Parent Container to the contact boxes should:
+    a. Be 270px high (20px taller than the contact boxes).
+    b. Contain a gap of 20px between child elements.
+
+2. Contact boxes should be:
+    a. Centred horizontally inside a parent div and displayed in a row.
+    b. 250px wide by default and not grow to fill the space.
+    c. 250px high.
+
+3. Address Box should be:
+    a. Aligned to the bottom of the parent.
+
+4. Get in touch (phone and email) Box should be:
+    a. Last in the row.
+
+*/
+
+.main-cointainer {
+  height: 270px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+.item {
+  height: 250px;
+  width: 250px;
+  border: 2px solid blue;
+  box-sizing: border-box;
+}
+
+.get-in-touch {
+  text-align: center;
+  order: 3;
+}
+
+.address {
+  align-self: flex-end;
+  text-align: right;
+  justify-items: center;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+/* Dario code start */
+
+th,
+td {
+  border-bottom: 1px solid black;
+}

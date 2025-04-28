@@ -1,0 +1,13 @@
+{
+  "name": "dario-visual-studio-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"**/*.{html,css,js}\" --write",
+    "lint:css": "stylelint \"**/*.css\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
