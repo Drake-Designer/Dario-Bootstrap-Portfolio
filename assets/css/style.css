@@ -13,7 +13,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #a4c2d1;
-  background-image: url('/assets/img/background-image.webp');
 }
 
 h1,
@@ -34,8 +33,36 @@ h2 {
   background-color: #dbdcde;
 }
 
+#portfolio .card-title {
+  color: #1f7798;
+  font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+  background-color: #1f7798;
+}
+
+#portfolio .card-text {
+  min-height: 170px;
+}
+
+#portfolio .card-img-top {
+  height: 400px;
+  width: auto;
+}
+
 /* Contact Section */
 
 #contact {
   background-color: white;
+}
+
+/* Header Hero Image */
+
+#hero {
+  background-image: url(/assets/img/background-image.webp);
+  background-size: cover;
+  background-position: 50% 70%;
+  min-height: 500px;
+  padding: 5% 7%;
 }
