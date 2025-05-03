@@ -1,8 +1,12 @@
+![image](https://github.com/user-attachments/assets/cb4e1b5e-b23d-405d-9a93-2249961d685c)
+
+<br>
+
 # 💼 Dario Bootstrap Portfolio
 
 This is a personal portfolio website created as part of my training at **Code Institute**.
 
-The project was originally designed as a **template for a fictional user**, but I decided to **personalize it** and make it represent **myself** as a web developer in training.
+The project was originally designed as a template for a fictional user, but I decided to personalize it and make it represent myself as a web developer in training.
 
 It uses **Bootstrap 5** to build a modern, responsive layout that works well on all devices.
 
