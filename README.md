@@ -28,7 +28,7 @@ The layout adapts to all screen sizes thanks to **Bootstrap’s grid system** an
 
 ## 🌐 Live Site
 
-👉 [View the live website](https://drake-designer.github.io/Dario-bootstrap-portfolio/)
+👉 [View the live website](https://drake-designer.github.io/Dario-Bootstrap-Portfolio/)
 
 ---
 
